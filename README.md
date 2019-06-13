@@ -104,6 +104,100 @@ gem install bundler
 # mkdir foo && cd foo && bundle init # to create Gemfile
 ```
 
+Python VirtualEnv:
+
+```
+sudo -K
+easy_install pip
+export PIP_REQUIRE_VIRTUALENV=false
+export BASH_PROFILE_PATH=~/.bash_profile
+pip install virtualenv
+pip install virtualenvwrapper
+EXTRA_PATH=~/.extra
+echo $EXTRA_PATH
+echo "" >> $EXTRA_PATH
+echo $EXTRA_PATH
+echo "" >> $EXTRA_PATH
+echo "# Source virtualenvwrapper, added by pydata.sh" >> $EXTRA_PATH
+echo "export WORKON_HOME=~/.virtualenvs" >> $EXTRA_PATH
+echo "source /usr/local/bin/virtualenvwrapper.sh" >> $EXTRA_PATH
+echo "" >> $BASH_PROFILE_PATH
+source $EXTRA_PATH
+```
+
+Python2
+
+```
+cd ~/
+mkvirtualenv py2-data
+workon py2-data
+pip install numpy
+pip install scipy
+pip install matplotlib
+pip install pandas
+pip install sympy
+pip install nose
+pip install unittest2
+pip install seaborn
+pip install scikit-learn
+pip install "ipython[all]"
+pip install bokeh
+pip install Flask
+pip install sqlalchemy
+pip install flask-sqlalchemy
+pip install boto3
+LDFLAGS="-I/usr/local/opt/openssl/include -L/usr/local/opt/openssl/lib" pip install mysqlclient
+echo "Usage: workon py2-data"
+```
+
+Python3:
+
+```
+cd ~/
+brew install python3
+mkvirtualenv --python=/usr/local/bin/python3 py3-data
+workon py3-data
+pip install numpy
+pip install scipy
+pip install matplotlib
+pip install pandas
+pip install sympy
+pip install nose
+pip install unittest2
+pip install seaborn
+pip install scikit-learn
+pip install "ipython[all]"
+pip install bokeh
+pip install Flask
+pip install sqlalchemy
+pip install flask-sqlalchemy
+pip install requests
+pip install boto3
+LDFLAGS="-I/usr/local/opt/openssl/include -L/usr/local/opt/openssl/lib" pip install mysqlclient
+echo "Usage: workon py3-data"
+```
+
+iPython
+
+```
+mkdir -p ~/.ipython/profile_default/startup
+mkdir -p ~/.ipython/profile_default/static/custom
+cd ~/.ipython/profile_default/startup
+curl -O https://raw.githubusercontent.com/donnemartin/dev-setup/master/init/profile_default/startup/README
+cd ~/.ipython/profile_default/static/custom
+curl -O https://raw.githubusercontent.com/donnemartin/dev-setup/master/init/profile_default/static/custom/custom.css
+curl -O https://raw.githubusercontent.com/donnemartin/dev-setup/master/init/profile_default/static/custom/custom.js
+cd ~/
+```
+
+#### BigData
+
+- https://github.com/donnemartin/dev-setup#section-4-big-data-aws-and-heroku-1
+
+#### AWS
+
+- https://github.com/donnemartin/dev-setup#awesome-aws-
+
 #### Terminal
 
 ```
