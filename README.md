@@ -6,6 +6,7 @@ Repo for My Mac Setup
 ```
 - Xcode
 - Slack
+- Docker Desktop for Mac
 - Firefox
   Plugins:
   - https://addons.mozilla.org/en-US/firefox/addon/momentumdash/
