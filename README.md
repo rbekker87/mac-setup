@@ -1,6 +1,10 @@
 # mac-setup
 Repo for My Mac Setup
 
+#### Resources:
+- https://github.com/nicolashery/mac-dev-setup
+- https://github.com/donnemartin/dev-setup
+
 #### Apps:
 
 ```
@@ -36,6 +40,31 @@ brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" postman
 brew cask install --appdir="/Applications" visual-studio-code
+```
+
+Postgresql:
+
+```
+sudo chown -R $(whoami) /usr/local/lib/pkgconfig
+brew install postgresql
+pg_ctl -D /usr/local/var/postgres start
+pg_ctl -D /usr/local/var/postgres stop
+```
+
+MySQL:
+
+```
+brew install mysql
+mysql.server start
+mysql_secure_installation
+mysql.server stop
+```
+
+MongoDB:
+
+```
+brew install mongodb
+mongod --config /usr/local/etc/mongod.conf
 ```
 
 #### Terminal
