@@ -4,6 +4,9 @@ Repo for My Mac Setup
 #### Resources:
 - https://github.com/nicolashery/mac-dev-setup
 - https://github.com/donnemartin/dev-setup
+- https://dev.to/therealdanvega/new-macbook-setup-for-developers-2nma
+- https://hackernoon.com/macbook-dev-setup-5890e61a8f0a
+- https://sourabhbajaj.com/mac-setup/Xcode/
 
 #### Apps:
 
@@ -65,6 +68,15 @@ MongoDB:
 ```
 brew install mongodb
 mongod --config /usr/local/etc/mongod.conf
+```
+
+SDKMan / Java:
+
+```
+curl -s "https://get.sdkman.io" | bash
+source ~/.sdkman/bin/sdkman-init.sh
+sdk list java
+sdk install java 11.0.3-amzn
 ```
 
 #### Terminal
