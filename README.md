@@ -79,6 +79,12 @@ sdk list java
 sdk install java 11.0.3-amzn
 ```
 
+Golang:
+
+```
+brew install go
+```
+
 #### Terminal
 
 ```
