@@ -37,3 +37,12 @@ brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" postman
 brew cask install --appdir="/Applications" visual-studio-code
 ```
+
+#### Terminal
+
+```
+cd ~/
+curl -O https://raw.githubusercontent.com/rbekker87/mac-setup/master/.bash_prompt
+curl -O https://raw.githubusercontent.com/rbekker87/mac-setup/master/.bash_profile
+curl -O https://raw.githubusercontent.com/rbekker87/mac-setup/master/.aliases
+```
