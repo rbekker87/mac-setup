@@ -97,6 +97,13 @@ nvm ls-remote --lts
 nvm install node
 ```
 
+Ruby:
+
+```
+gem install bundler
+# mkdir foo && cd foo && bundle init # to create Gemfile
+```
+
 #### Terminal
 
 ```
