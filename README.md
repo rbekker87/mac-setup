@@ -34,4 +34,6 @@ brew update
 brew cask install iterm2
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" postman
+brew cask install --appdir="/Applications" visual-studio-code
 ```
