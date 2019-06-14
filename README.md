@@ -20,6 +20,7 @@ Repo for My Mac Setup
   - https://addons.mozilla.org/en-US/firefox/addon/clippings/?src=homepage-collection-featured
   - https://addons.mozilla.org/en-US/firefox/addon/tomato-clock/?src=homepage-collection-featured
   - https://addons.mozilla.org/en-US/firefox/addon/gesturefy/?src=homepage-collection-featured
+  - https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/
   - Lastpass
 - Evernote
 - Evernote Clipper
