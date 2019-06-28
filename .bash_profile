@@ -1,5 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+export LC_ALL=en_US.UTF-8
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
