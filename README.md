@@ -48,6 +48,7 @@ brew cask install --appdir="/Applications" postman
 brew cask install --appdir="/Applications" visual-studio-code
 
 brew install jq
+brew install wget
 ```
 
 Postgresql:
