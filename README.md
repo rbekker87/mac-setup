@@ -50,6 +50,7 @@ brew cask install --appdir="/Applications" visual-studio-code
 brew install jq
 brew install wget
 brew install fzf
+brew install kubernetes-cli
 ```
 
 Postgresql:
