@@ -7,6 +7,7 @@ Repo for My Mac Setup
 - https://dev.to/therealdanvega/new-macbook-setup-for-developers-2nma
 - https://hackernoon.com/macbook-dev-setup-5890e61a8f0a
 - https://sourabhbajaj.com/mac-setup/Xcode/
+- https://github.com/lra/mackup
 
 #### Apps:
 
