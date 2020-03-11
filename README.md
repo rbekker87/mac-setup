@@ -50,6 +50,8 @@ Editor:
 
 ```
 brew cask install --appdir="/Applications" atom
+# Atom + Git
+# https://courses.cs.washington.edu/courses/cse154/19su/resources/assets/atomgit/macosx/
 ```
 
 Tools:
