@@ -46,6 +46,12 @@ brew cask install iterm2
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+Editor:
+
+```
+brew cask install --appdir="/Applications" atom
+```
+
 Tools:
 
 ```
