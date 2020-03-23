@@ -72,6 +72,14 @@ brew install fzf
 brew install kubernetes-cli
 ```
 
+Configure fzf:
+
+```
+/usr/local/opt/fzf/install
+source ~/.zshrc
+# https://sourabhbajaj.com/mac-setup/iTerm/fzf.html
+```
+
 Postgresql:
 
 ```
