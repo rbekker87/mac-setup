@@ -8,6 +8,7 @@ Repo for My Mac Setup
 - https://hackernoon.com/macbook-dev-setup-5890e61a8f0a
 - https://sourabhbajaj.com/mac-setup/Xcode/
 - https://github.com/lra/mackup
+- https://gist.github.com/vratiu/9780109 (bash colors)
 
 #### Apps:
 
