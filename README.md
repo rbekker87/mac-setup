@@ -75,6 +75,13 @@ brew install fzf
 brew install kubernetes-cli
 ```
 
+Plugins:
+
+```
+vscode:
+- https://www.raspberrypi.org/blog/coding-on-raspberry-pi-remotely-with-visual-studio-code/
+```
+
 Configure fzf:
 
 ```
