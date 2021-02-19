@@ -1,0 +1,27 @@
+aws(){
+  docker run --rm -it -e AWS_DEFAULT_REGION=eu-west-1 -v ~/.aws/credentials:/root/.aws/credentials ruanbekker/awscli aws "$@"
+}
+
+aws-ssh(){
+  instance_name=${1}
+  instance_id=$(aws --profile dev ec2 describe-instances --filter "Name=tag:Name,Values=${instance_name}" --query "Reservations[].Instances[?State.Name == 'running'].InstanceId[]" --output text)
+  aws --profile dev ssm start-session --target ${instance_id}
+}
+
+mvn(){
+  docker run -it --rm --name maven -v "$(pwd)":/usr/src/mymaven -v ~/.m2:/root/.m2 -w /usr/src/mymaven maven:3.6.3-openjdk-15 mvn clean install -DskipTests
+}
+
+mysql(){
+  docker run -it ruanbekker/mysql "$@"
+}
+
+source_loki(){
+  export LOKI_ADDR="http://localhost:3100"
+  export LOKI_USERNAME=""
+  export LOKI_PASSWORD=""
+}
+
+vpn(){
+  sshuttle -r ssh-jump-host 172.31.0.0/16
+}
