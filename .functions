@@ -9,7 +9,7 @@ aws-ssh(){
 }
 
 mvn(){
-  docker run -it --rm --name maven -v "$(pwd)":/usr/src/mymaven -v ~/.m2:/root/.m2 -w /usr/src/mymaven maven:3.6.3-openjdk-15 mvn clean install -DskipTests
+  docker run --privileged -it --rm --name maven -v /var/run/docker.sock:/var/run/docker.sock -v "$(pwd)":/usr/src/mymaven -v ~/.m2:/root/.m2 -w /usr/src/mymaven maven:3.6.3-openjdk-15 mvn clean install -DskipTests
 }
 
 mysql(){
