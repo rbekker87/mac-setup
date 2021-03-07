@@ -49,9 +49,25 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 iTerm Customization:
 
+- https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/ (best)
 - https://github.com/romkatv/powerlevel10k
 - https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/
 - https://medium.com/ayuth/iterm2-zsh-oh-my-zsh-the-most-power-full-of-terminal-on-macos-bdb2823fb04c
+
+iTerm Color Theme: `argonaut`
+
+ZSH Config:
+
+```
+ZSH_THEME="powerlevel9k/powerlevel9k"
+```
+
+Theme Config:
+
+```
+defined POWERLEVEL9K_LEFT_PROMPT_ELEMENTS || POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
+defined POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS || POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(root_indicator background_jobs)
+```
 
 Editor:
 
