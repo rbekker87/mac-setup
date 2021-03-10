@@ -83,7 +83,8 @@ Tools:
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" postman
-brew cask install --appdir="/Applications" visual-studio-code
+brew cask install --appdir="/Applications" visual-studio-code 
+ -> (for setting code in path: https://stackoverflow.com/a/39604469)
 
 brew install jq
 brew install wget
