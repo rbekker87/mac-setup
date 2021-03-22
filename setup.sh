@@ -8,6 +8,8 @@ brew install cask
 brew install --cask iterm2
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
 brew install --cask --appdir="/Applications" virtualbox
 brew install --cask --appdir="/Applications" vagrant
 brew install --cask --appdir="/Applications" visual-studio-code
