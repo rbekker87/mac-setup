@@ -31,3 +31,6 @@ brew upgrade hashicorp/tap/terraform
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes ~/Downloads/iTerm2-Color-Schemes
 echo "iTerm -> Preferences -> Profiles -> Colors -> Color Presets, Import:"
 echo "~/Downloads/iTerm2-Color-Schemes/schemes/Argonaut.itermcolors"
+
+# get vim colors
+curl --silent https://raw.githubusercontent.com/rbekker87/mac-setup/master/.vim/colors/molokai.vim --create-dirs --output ~/.vim/colors/molokai.vim
