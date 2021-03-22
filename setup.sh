@@ -37,3 +37,9 @@ curl --silent https://raw.githubusercontent.com/rbekker87/mac-setup/master/.vimr
 
 # get vim colors
 curl --silent https://raw.githubusercontent.com/rbekker87/mac-setup/master/.vim/colors/molokai.vim --create-dirs --output ~/.vim/colors/molokai.vim
+
+# get zsh config
+curl --silent https://raw.githubusercontent.com/rbekker87/mac-setup/master/.zshrc --output ~/.zshrc
+
+# get zsh powerlevel9k.zsh-theme
+curl --silent https://raw.githubusercontent.com/rbekker87/mac-setup/master/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme --create-dirs --output ~/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
