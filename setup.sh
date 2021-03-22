@@ -27,3 +27,7 @@ brew install --cask multipass
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 brew upgrade hashicorp/tap/terraform
+
+git clone https://github.com/mbadolato/iTerm2-Color-Schemes ~/Downloads/iTerm2-Color-Schemes
+echo "iTerm -> Preferences -> Profiles -> Colors -> Color Presets, Import:"
+echo "~/Downloads/iTerm2-Color-Schemes/schemes/Argonaut.itermcolors"
